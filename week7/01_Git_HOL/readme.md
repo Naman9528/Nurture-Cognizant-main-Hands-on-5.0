@@ -15,8 +15,8 @@ git version 2.52.0.windows.1
 Git is installed successfully because the command displays the installed Git version.
 
 1.2 Configure User-Level Git Identity
-git config --global user.name "Naman"
-git config --global user.email "namansaini43385@gmail.com"
+git config --global user.name "Name"
+git config --global user.email "your@gmail.com"
 1.3 Verify Git Configuration
 $ git config --global --get user.name
 
@@ -27,7 +27,7 @@ $ git config --global --get user.email
 
 Output
 
-namansaini43385@gmail.com
+your@gmail.com
 
 The global Git username and email are configured successfully. All future commits from this machine will use this identity.
 
